@@ -11,4 +11,4 @@ if camera.isOpened():
         else:
             print("Unable to grab frame")
             break
-cv2.DestroyAllWindows()
+cv2.destroyAllWindows()
